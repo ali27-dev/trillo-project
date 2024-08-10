@@ -18,6 +18,52 @@
     <title>trillo &mdash; your all-in-one booking app</title>
   </head>
   <body>
-    Abid ali
+    <div class="container">
+      <!-- header-section-start -->
+      <header class="header">
+        <img src="images/logo.png" alt="trillo logo" class="logo" />
+
+        <form action="#" class="search">
+          <input type="text" class="search__input" placeholder="search hotel" />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="images/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+        <!-- icon-1 -->
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav_icon">
+              <use xlink:href="images/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>
+          </div>
+          <!-- icon-2 -->
+          <div class="user-nav__icon-box">
+            <svg class="user-nav_icon">
+              <use xlink:href="images/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">13</span>
+          </div>
+          <!-- user-photo -->
+          <div class="user-nav_user">
+            <img
+              src="images/user.jpg"
+              alt="user photo"
+              class="user-nav-__user-photo"
+            />
+            <span class="user-nav__user-name">jonas</span>
+          </div>
+        </nav>
+      </header>
+      <!-- header-section-end -->
+
+      <div class="content">
+        <nav class="sidebar">sidebar</nav>
+
+        <div class="hotel-view">hotel</div>
+      </div>
+    </div>
   </body>
 </html>
